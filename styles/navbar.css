@@ -1,0 +1,36 @@
+#navbar {
+  background: #353535;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  float: left;
+  display: inline;
+  font-size: 17px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+#navbar a:hover {
+  color: white;
+}
+
+body {
+  font-family: "Arvo";
+}
+
+.selected {
+  color: white;
+}

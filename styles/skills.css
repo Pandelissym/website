@@ -1,0 +1,40 @@
+#skills {
+  text-align: center;
+  background-color: pink;
+}
+
+#skills p {
+  padding: 20px;
+}
+
+.skill {
+  width: 150px;
+  height: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 45px 45px 80px 45px;
+  transition: 0.2s;
+  text-align: center;
+  color: rgb(43, 43, 43);
+  box-sizing: border-box;
+}
+
+.skill-icon {
+  width: 120px;
+  height: 120px;
+}
+
+.skill-icon:hover {
+  transform: translateZ(-100);
+  transform: scale(1.1, 1.1);
+}
+
+.skill-label {
+  padding-top: 18px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+#skill-container {
+  padding: 50px 200px 100px 200px;
+}

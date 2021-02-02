@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1,
+ul,
+p {
+  margin: 0;
+}
+
+.content {
+  padding-top: 100px;
+}
